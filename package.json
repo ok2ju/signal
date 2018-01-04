@@ -1,0 +1,27 @@
+{
+  "name": "signal",
+  "version": "0.1.0",
+  "description": "WebRTC signalling server",
+  "bin": {
+    "signal": "./bin/signal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ok2ju/signal.git"
+  },
+  "keywords": [
+    "webrtc",
+    "signalling"
+  ],
+  "author": "ok2ju <soulSpringg@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok2ju/signal/issues"
+  },
+  "homepage": "https://github.com/ok2ju/signal#readme",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
