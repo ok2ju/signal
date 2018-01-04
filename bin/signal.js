@@ -13,8 +13,8 @@ program
 
 io.on('connection', (socket) => {
   socket.on('join', (room) => {
-    const peers = io.nsps['/'].adaper.rooms[room]
-      ? Object.keys(io.nsps['/'].adaper.rooms[room].sockets)
+    const peers = io.nsps['/'].adapter.rooms[room]
+      ? Object.keys(io.nsps['/'].adapter.rooms[room].sockets)
       : [];
 
     socket.emit('peers', peers);
