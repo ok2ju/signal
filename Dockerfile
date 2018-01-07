@@ -8,6 +8,6 @@ WORKDIR $SRC_DIR
 
 RUN yarn install
 
-CMD ["node", "./bin/signal.js"]
+CMD ["node", "./index.js"]
 
 EXPOSE 3334
